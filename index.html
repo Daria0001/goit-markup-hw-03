@@ -23,33 +23,31 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <div class="container">
-        <div class="container-nav">
-          <a class="logo" href="">Web<span>Studio</span></a>
-          <nav class="main-nav">
-            <ul class="site-nav">
-              <li class="item">
-                <a class="link-text accent" href="./index.html">Студия</a>
-              </li>
-              <li class="item">
-                <a class="link-text" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li class="item"><a class="link-text" href="">Контакты</a></li>
-            </ul>
-          </nav>
-          <ul class="site-nav-link-contacts">
+      <div class="header-container">
+        <a class="logo" href="">Web<span>Studio</span></a>
+        <nav class="main-nav">
+          <ul class="site-nav">
             <li class="item">
-              <a class="link-contacts" href="info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="link-text accent" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a class="link-contacts" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+              <a class="link-text" href="./portfolio.html">Портфолио</a>
             </li>
+            <li class="item"><a class="link-text" href="">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
+        <ul class="site-nav-link-contacts">
+          <li class="item">
+            <a class="link-contacts" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link-contacts" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -73,7 +71,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="flex-peculiarities">
               <h3 class="title-peculiarities">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="paragraph">
                 Задача организации, в особенности же рамки и место обучения
@@ -81,7 +79,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="flex-peculiarities">
               <h3 class="title-peculiarities">ПЛАНИРОВАНИЕ</h3>
               <p class="paragraph">
                 Равным образом консультация с широким активом в значительной
@@ -89,7 +87,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="flex-peculiarities">
               <h3 class="title-peculiarities">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
               <p class="paragraph">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -100,7 +98,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-projects">
         <div class="container">
           <h2 class="title-features">Чем мы занимаемся</h2>
           <ul class="flex-features">
@@ -117,7 +115,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-comand">
         <div class="container">
           <h2 class="title-comand">Наша команда</h2>
           <ul class="flex-comand">
@@ -149,17 +147,19 @@
       </section>
     </main>
 
-    <footer>
-      <!-- Подвал -->
-      <a class="logo-footer" href="WebStudio">Web<span>Studio</span></a>
+    <footer class="footer">
+      <div class="container">
+        <!-- Подвал -->
+        <a class="logo-footer" href="WebStudio">Web<span>Studio</span></a>
 
-      <address>
-        <a class="contact-section-adress" href="г.Киев,пр-тЛесиУкраинки,26"
-          >г. Киев, пр-т Леси Украинки, 26</a
-        >
-        <a class="contact" href="info@devstudio.com">info@devstudio.com</a>
-        <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
+        <address>
+          <a class="contact-section-adress" href="г.Киев,пр-тЛесиУкраинки,26"
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
+          <a class="contact" href="info@devstudio.com">info@devstudio.com</a>
+          <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
